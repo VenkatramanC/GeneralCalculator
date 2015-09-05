@@ -38,6 +38,9 @@ body {
     &:hover {
     background-color: darken(#434343, 5%);
     }
+    &:active {
+    background-color: darken(#434343, 10%);
+    }
   }
   #calculator #operators .operator {
     background-color: #232323;
