@@ -6,9 +6,10 @@
   <title>Calculator</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="assets/scripts/calci.js"></script>
   <link rel="stylesheet" href="assets/stylesheets/styles.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="assets/scripts/jqery.hotkeys.js"></script>
+  <script src="assets/scripts/calci.js"></script>
 
 </head>
 <body>
@@ -23,27 +24,27 @@
         	<div class="row">
            		<div class="container-fluid">
         			<div class="row">
-        				<div class="col-xs-4 key input" data key-type ="digit" data-digit="7">7</div>
-         				<div class="col-xs-4 key input" data key-type ="digit" data-digit="8">8</div>
-          			<div class="col-xs-4 key input" data key-type ="digit" data-digit="9">9</div>
+        				<div class="col-xs-4 key input" data-key-type="digit" data-digit="7">7</div>
+         				<div class="col-xs-4 key input" data-key-type="digit" data-digit="8">8</div>
+          			<div class="col-xs-4 key input" data-key-type="digit" data-digit="9">9</div>
           			</div>
           		</div>
    			</div>	
    			<div class="row">
           	 	<div class="container-fluid">
         				<div class="row">
-        				<div class="col-xs-4 key input" data key-type ="digit" data-digit="4">4</div>
-         				<div class="col-xs-4 key input" data key-type ="digit" data-digit="5">5</div>
-          			<div class="col-xs-4 key input" data key-type ="digit" data-digit="6">6</div>
+        				<div class="col-xs-4 key input" data-key-type="digit" data-digit="4">4</div>
+         				<div class="col-xs-4 key input" data-key-type="digit" data-digit="5">5</div>
+          			<div class="col-xs-4 key input" data-key-type="digit" data-digit="6">6</div>
           			</div>
           		</div>
    			</div>	
    			<div class="row">
            		<div class="container-fluid">
         			<div class="row">
-        				<div class="col-xs-4 key input"  data key-type ="digit" data-digit="1">1</div>
-         				<div class="col-xs-4 key input"  data key-type ="digit" data-digit="2">2</div>
-          			<div class="col-xs-4 key input"  data key-type ="digit" data-digit="3">3</div>
+        				<div class="col-xs-4 key input"  data-key-type="digit" data-digit="1">1</div>
+         				<div class="col-xs-4 key input"  data-key-type="digit" data-digit="2">2</div>
+          			<div class="col-xs-4 key input"  data-key-type="digit" data-digit="3">3</div>
           			</div>
           		</div>
    			</div>	
@@ -59,7 +60,7 @@
          
         </div>
         <div id = "operators" class = "col-xs-3" >
-          <div class="operator input" data-key-type="delete">DEL</div>
+          <div id = "delete" class="operator input" data-key-type="delete">DEL</div>
           <div class="operator input" data-key-type="operator" data-operator="/">/</div>
           <div class="operator input" data-key-type="operator" data-operator="*">x</div>
           <div class="operator input" data-key-type="operator" data-operator="-">-</div>

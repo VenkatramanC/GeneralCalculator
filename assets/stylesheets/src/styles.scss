@@ -10,7 +10,10 @@ body {
 	  top: 50%;
     text-transform: translateY(-50%);
     margin: 0 auto;
-
+    ::selection {
+      color: inherit; 
+      background-color: transparent;
+    }
 	#result {
       background-color: red;
       height: 1.5*$key_height;
